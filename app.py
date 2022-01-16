@@ -1,6 +1,6 @@
 # Imports
 # -----------------------------------------------------------
-from scipy import data
+from scipy.sparse import data
 import streamlit as st
 import pandas as pd
 from sklearn.cluster import KMeans
