@@ -16,7 +16,7 @@ sns.set_theme()
 @st.cache
 def load_data():
     df = pd.read_csv(
-        "https://raw.githubusercontent.com/ThuwarakeshM/PracticalML-KMeans-Election/master/voters_demo_sample.csv"
+        "https://github.com/PvrpleBlvck/streamlit/blob/main/data.csv"
     )
     return df
 
@@ -79,12 +79,11 @@ n_clusters = sidebar.slider(
 )
 
 sidebar.write(
-    """
-    Hey friend!It seems we have lots of common interests. 
-    I'd love to connect with you on 
-    - [LinkedIn](https://linkedin.com/in/thuwarakesh/)
-    - [Twitter](https://www.twitter.com/thuwarakesh/)
-    And please follow me on [Medium](https://thuwarakesh.medium.com/), because I write about data science.
+    """ 
+    Let's connect on 
+    - [LinkedIn](https://www.linkedin.com/in/nore-yahm/)
+    - [Twitter](https://twitter.com/pvrple_blvck/)
+    - [Medium](https://pvrpleblvck.medium.com/)
     """
 )
 # -----------------------------------------------------------
@@ -93,10 +92,7 @@ sidebar.write(
 # Main
 # -----------------------------------------------------------
 # Create a title for your app
-st.title("Interactive K-Means Clustering")
-"""
-An illustration by [Thuwarakesh Murallie](https://thuwarakesh.medium.com) for the Streamlit introduction article on Medium.
-"""
+st.title("Pvrple Interactive K-Means Clustering")
 
 
 # Show cluster scatter plot
