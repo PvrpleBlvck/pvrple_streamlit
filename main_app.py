@@ -21,7 +21,8 @@ def load_data():
     return df
 
 
-df = load_data()''''
+df = load_data()'''
+
 df = pd.read_csv("https://github.com/PvrpleBlvck/streamlit/blob/main/data.csv")
 
 
