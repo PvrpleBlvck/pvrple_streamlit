@@ -13,7 +13,7 @@ sns.set_theme()
 # Helper functions
 # -----------------------------------------------------------
 # Load data from external source
-@st.cache
+'''@st.cache
 def load_data():
     df = pd.read_csv(
         "https://github.com/PvrpleBlvck/streamlit/blob/main/data.csv"
@@ -21,7 +21,8 @@ def load_data():
     return df
 
 
-df = load_data()
+df = load_data()''''
+df = pd.read_csv("https://github.com/PvrpleBlvck/streamlit/blob/main/data.csv")
 
 
 def run_kmeans(df, n_clusters=2):
